@@ -6,6 +6,7 @@ body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
   margin: 0;
+  background-color: #f8f8f8;
 }
 
 /* Header Starts  */
@@ -179,6 +180,7 @@ body {
   height: 80vh;
   margin-top: 30px;
   overflow: hidden;
+  z-index: -1000;
 }
 
 .banner__1 {
@@ -191,7 +193,7 @@ body {
   position: relative;
   z-index: 2;
   border-radius: 20px;
-  /box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); */
 }
 
 /* Styling for the second image */
@@ -206,4 +208,77 @@ body {
   top: 0px;
   z-index: 1;
 }
+
 /* Hero Ends  */
+
+/* About Starts  */
+
+.container {
+  width: 100%;
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 2rem;
+}
+
+.about__container {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.about__title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-size: 700;
+}
+.about__description {
+  text-align: center;
+  font-size: 1rem;
+  color: #4a4545;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about__card_list {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+  justify-items: center;
+  gap: 2rem;
+  padding: 0rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.about__card_container {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.about__card_container:hover {
+  transform: translateY(-10px);
+  /box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
+}
+.card__icon {
+  margin-bottom: 1rem;
+}
+
+.card__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.card__description {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* About Ends  */
