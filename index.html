@@ -9,7 +9,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="script.js" />
+    <!-- Correct JavaScript Linking -->
+    <script src="script.js" defer></script>
   </head>
   <body>
     <!-- Header Starts  -->
@@ -38,13 +39,13 @@
       </div>
 
       <div class="header__btn">
-        <button class="header__button"><a href="#">See Demo</a></button>
+        <button class="header__button"><a href="#app">See Demo</a></button>
       </div>
     </div>
     <!-- Header Ends  -->
 
     <!-- Hero Section Starts  -->
-    <div id="#home" class="hero-area">
+    <div id="home" class="hero-area">
       <div class="hero__container">
         <div class="hero__text">
           <h1 class="hero__title">
@@ -169,7 +170,221 @@
         </div>
       </div>
     </div>
-
     <!-- About Section Ends  -->
+
+    <!-- Get App Starts  -->
+    <div id="app" class="container">
+      <div class="get__app">
+        <div class="app__left">
+          <img src="images/app-banner.png" alt="Get App" class="app_banner" />
+        </div>
+        <div class="app__right">
+          <div class="short__title">
+            <span class="line"></span>
+            <span class="text">Download Now</span>
+          </div>
+
+          <h2 class="app__title">Get <span class="highlight">the app</span></h2>
+
+          <p class="app__description">
+            Aplikasi kami tersedia di play store , app store , anda dapat
+            langsung mendownloadnya secara gratis dan nikmati fitur aplikasi
+            yang sudah kami sediakan
+          </p>
+          <div class="app__social">
+            <img
+              src="images/playstore.png"
+              alt="Playstore"
+              class="app__social-link"
+            />
+            <img
+              src="images/appstore.png"
+              alt="Appstore"
+              class="app__social-link"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Get App Starts  -->
+
+    <!-- Pricing Starts  -->
+    <div id="pricing" class="container">
+      <div class="pricing__container">
+        <div class="pricing__left">
+          <div class="short__title">
+            <span class="line"></span>
+            <span class="text">Information</span>
+          </div>
+
+          <h2 class="pricing__title">
+            Covid <span class="highlight">information</span>
+          </h2>
+
+          <div class="info__container">
+            <ul class="info__list">
+              <!-- First Information  -->
+              <li>
+                <div class="info__icon">
+                  <img
+                    src="images/pricing__icon1.png"
+                    alt=""
+                    class="info__icon"
+                  />
+                </div>
+                <div class="info__content">
+                  <h3 class="info__content_title">Informasi tepat waktu</h3>
+                  <p class="info__content_description">
+                    Informasi yang anda dapatkan selalu update oleh kami ,
+                    karena kami mengutamakan informasi yang akurat dan cepat
+                  </p>
+                </div>
+              </li>
+              <!-- Second  Information  -->
+              <li>
+                <div class="info__icon">
+                  <img
+                    src="images/pricing__icon2.png"
+                    alt=""
+                    class="info__icon"
+                  />
+                </div>
+                <div class="info__content">
+                  <h3 class="info__content_title">Informasi tepat waktu</h3>
+                  <p class="info__content_description">
+                    Informasi yang anda dapatkan selalu update oleh kami ,
+                    karena kami mengutamakan informasi yang akurat dan cepat
+                  </p>
+                </div>
+              </li>
+              <!-- Third Information  -->
+              <li>
+                <div class="info__icon">
+                  <img
+                    src="images/pricing__icon3.png"
+                    alt=""
+                    class="info__icon"
+                  />
+                </div>
+                <div class="info__content">
+                  <h3 class="info__content_title">Informasi tepat waktu</h3>
+                  <p class="info__content_description">
+                    Informasi yang anda dapatkan selalu update oleh kami ,
+                    karena kami mengutamakan informasi yang akurat dan cepat
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="header__btn">
+            <button class="header__button"><a href="#app">See Demo</a></button>
+          </div>
+        </div>
+        <div class="pricing__right">
+          <!-- Map Image (Background) -->
+          <img
+            src="images/covid_banner2.png"
+            alt="Map Image"
+            class="map-image"
+          />
+
+          <!-- Content Image (Foreground) -->
+          <img
+            src="images/covid_banner1.png"
+            alt="Content Image"
+            class="content-image"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Pricing Ends  -->
+
+    <!-- Contact Starts  -->
+    <div id="contact" class="container">
+      <div class="contact__container">
+        <img src="images/contact_back.png" alt="" class="contact__bg1" />
+        <img src="images/contact_back.png" alt="" class="contact__bg2" />
+
+        <div class="contact__card">
+          <h2 class="conatct__title">
+            <span class="highlight"> Contact </span>
+          </h2>
+          <div class="contact__line"></div>
+          <div class="contact__info">
+            <!-- left part  -->
+            <div class="contact__form">
+              <h3 class="form__title">Leave us a message</h3>
+              <form action="">
+                <div class="form__information">
+                  <input type="text" id="name" placeholder="Your name" />
+                  <input type="email" id="email" placeholder="Email Address" />
+                  <textarea id="message" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send</button>
+              </form>
+            </div>
+            <!-- Right Part  -->
+            <div class="contact__content">
+              <ul class="content__list">
+                <li>
+                  <div class="contact__icon">
+                    <img
+                      src="images/location_icon.png"
+                      alt=""
+                      class="con__icon"
+                    />
+                  </div>
+                  <div class="contact__text">
+                    Infomation technologies building, Kudus , Jawa tengah
+                    Indonesian
+                  </div>
+                </li>
+                <li>
+                  <div class="contact__icon">
+                    <img src="images/call_icon.png" alt="" class="con__icon" />
+                  </div>
+                  <div class="contact__text">
+                    Infomation technologies building, Kudus , Jawa tengah
+                    Indonesian
+                  </div>
+                </li>
+                <li>
+                  <div class="contact__icon">
+                    <img src="images/mail_icon.png" alt="" class="con__icon" />
+                  </div>
+                  <div class="contact__text">
+                    Infomation technologies building, Kudus , Jawa tengah
+                    Indonesian
+                  </div>
+                </li>
+              </ul>
+              <div class="contact__socials">
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><img src="images/con-fb.png" alt="facebook" class="socials"
+                /></a>
+                <a href="facebook.com" target="_blank"
+                  ><img
+                    src="images/con-insta.png"
+                    alt="facebook"
+                    class="socials"
+                /></a>
+                <a href="facebook.com" target="_blank"
+                  ><img src="images/Twitter.png" alt="facebook" class="socials"
+                /></a>
+                <a href="facebook.com" target="_blank"
+                  ><img src="images/Youtube.png" alt="facebook" class="socials"
+                /></a>
+              </div>
+              <img
+                src="images/contact_map.png"
+                alt="Map"
+                class="contact__map"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Ends  -->
   </body>
 </html>
