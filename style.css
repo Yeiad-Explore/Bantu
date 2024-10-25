@@ -559,3 +559,83 @@ textarea {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 /* Contact Ends  */
+
+/* Footer Starts  */
+
+.footer {
+  background-color: #5669ff;
+  color: white;
+  padding: 40px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer__left {
+  max-width: 300px;
+}
+
+.footer__logo {
+  width: 120px;
+}
+
+.footer__description {
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.footer__socials {
+  margin-top: 25px;
+  display: flex;
+  gap: 25px;
+}
+
+.footer__middle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__middle h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer__middle ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__middle ul li {
+  margin-bottom: 8px;
+}
+
+.footer__middle ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer__middle ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer__bottom {
+  text-align: right;
+  padding-top: 20px;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-right: 340px;
+}
+
+/* Footer Ends  */
